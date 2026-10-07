@@ -1,4 +1,4 @@
-root {
+:root {
     --bleu: #0b6e99;
     --bleu-fonce: #084d6b;
     --sable: #f4e9d8;
@@ -6,17 +6,17 @@ root {
     --texte: #2b2b2b;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     color: var(--texte);
-    background-color: rgb(232, 219, 142);
+    background-color: var(--sable);
 }
 
 main {
@@ -25,7 +25,8 @@ main {
     padding: 30px 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: var(--bleu-fonce);
     margin-bottom: 15px;
 }
@@ -64,7 +65,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.liste-vehicules {
+.liste-vehicule {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 25px;
@@ -76,9 +77,8 @@ nav a:hover {
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s;
+    transition: 0.3s;
 }
-
 .carte:hover {
     transform: translateY(-6px);
 }
@@ -108,7 +108,7 @@ nav a:hover {
 
 .caracteristiques {
     list-style: none;
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     gap: 8px;
     margin-bottom: 15px;
