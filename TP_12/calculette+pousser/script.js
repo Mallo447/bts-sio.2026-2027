@@ -27,7 +27,13 @@ function division()
     var a = document.getElementById("t1").value;
     var b = document.getElementById("t2").value;
     var c = Number(a) / Number(b);
-    document.getElementById("resultat").value=c;
+
+    if (Number (b) == 0) {
+        document.getElementById("resultat").value= "Erreur";
+    }
+    else {
+        document.getElementById("resultat").value=c;
+    }
 }
 
 function permutation() {
