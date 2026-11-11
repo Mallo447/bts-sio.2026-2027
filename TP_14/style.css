@@ -1,0 +1,18 @@
+body {
+	background-color: #34789E;
+}
+
+h1 {
+	color: #245978;
+}
+
+a {
+	color: #2A6487;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+a:hover {
+	color: #428AB3;
+	font-size: 20px;
+}

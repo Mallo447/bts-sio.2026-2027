@@ -1,0 +1,36 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: pink;
+}
+
+.t1 {
+	background-color: red;
+	color: yellow;
+	float: left;
+	width: 400px;
+	height: 300px;
+	font-size: 33px;
+	font-weight: bold;
+}
+
+.p1 {
+	background-color: red;
+	color: yellow;
+	float: left;
+	font-size: 30px;
+	width: 400px;
+	height: 400px;
+	margin-left:57% ;
+	margin-bottom: 30px;
+
+}
+
+.im1 {
+	background-color: red;
+	color: yellow;
+	clear: both;
+	font-size: 30px;
+	width: 400px;
+	height: 400px;
+
+}
