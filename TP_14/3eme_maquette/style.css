@@ -1,0 +1,80 @@
+body {
+	font-family: Arial, sans-serif;
+	background: #370031;
+	margin: 0;
+    padding: 0;
+}
+
+header {
+	background-color: #832232;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+.h1 {
+	color: white;
+	text-align: center;
+}
+
+main {
+	display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+    max-width: 2000px;
+    margin: 0 auto 30px auto;
+    padding: 0 20px;
+}
+
+.arriere_plan {
+	background: #4c0043;
+	border-radius: 30px;
+    width: 38%;
+    padding: 20px;
+    display: flex; /* prend toute la place qui manque */
+    flex-direction: column; /* empile verticalement */
+    justify-content: space-between; /* espace avec la même largeur pour tous*/ 
+}
+
+.h2 {
+	background: #832232;
+	color: white;
+	text-align: center;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.p1 {
+	background: #832232;
+	color: white;
+	border-radius: 25px;
+    padding: 15px;
+    flex-grow: 1; /*uniformiser hauteur des blocs intérieurs */
+    display: flex; /* centre horizontalement */
+    justify-content: center;
+} 
+
+img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover; /*recadrement de l'image x melformation */
+    border-radius: 15px;
+}
+
+footer {
+	background: #832232;
+	color: white;
+	width: 100%;
+    padding: 20px 0; /* espace haute + bas */
+    text-align: center;
+    margin-top: 40px; /* espace ne haute */
+}
+
+a {
+	color: #C43939;
+	text-decoration: none; /* suppprime le soulignement du lien */
+}
+
+a:hover {
+	color: #A62929;
+}
